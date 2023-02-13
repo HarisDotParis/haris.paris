@@ -1,0 +1,75 @@
+title: Haris
+baseURL: https://haris.paris
+theme: "PaperMod"
+sectionPagesMenu: main
+
+permalinks:
+    blog: /blog/:year/:month/:slug/
+publishDir: /var/www/virtual/haris/html
+enableEmoji: true
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON # is necessary for search
+
+params:
+    ShowReadingTime: true
+    env: production
+    displayFullLangName: true
+    hideFooter: true
+    UseHugoToc: true   # check for correctness
+    socialIcons:
+        - name: matrix
+          title: "Matrix (@ha:ris.paris)"
+          url: "https://matrix.to/#/@ha:ris.paris"
+        - name: mastodon
+          title: "Mastodon (@ha@ris.paris)"
+          url: "https://masto.ris.paris/@ha"
+        - name: linkedin
+          title: "LinkedIn (@haristrgo)"
+          url: "https://linkedin.com/in/haristrgo"
+        - name: xing
+          title: "XING (@Haris_Trgo)"
+          url: "https://www.xing.com/profile/Haris_Trgo"
+        - name: github
+          title: "GitHub (@HarisDotParis)"
+          url: "https://github.com/HarisDotParis"
+        - name: twitter
+          title: "Twitter (@HarisDotParis)"
+          url: "https://twitter.com/HarisDotParis"
+        - name: cv
+          title: "CV"
+          url: "about/cv"
+        - name: pgpkey
+          title: PGP key
+          url: "https://keys.openpgp.org/search?q=haris%40mailbox.org"
+# list of all socialIcons on offer: layouts/partials/svg.html
+
+languageCode: de
+defaultContentLanguage: de
+PluralizeListTitles: false
+removePathAccents: true
+timeZone: Europe/Brussels
+languages:
+    de:
+        languageName: Deutsch
+        params:
+            linkedin: https://de.linkedin.com/in/haristrgo/de
+            homeInfoParams:
+                Title: Haris – geschrieben wie Paris
+                Content: Willkommen auf meinem Blog! Als ITler hätte ich schon viel zu schreiben, aber durch mein wirtschaftliches, politisches, philosophisches und generell wissenschaftliches Interesse haben wir umso mehr spannende Themen zu entdecken. Viel Spaß beim Lesen und Teilen!
+        description: Making the future happen
+        weight: 1
+        paginatePath: seite
+
+    en:
+        languageName: English
+        params: 
+            linkedin: https://linkedin.com/in/haristrgo
+            homeInfoParams:
+                Title: Haris – write it like Paris
+                Content: Welcome to my blog! As an tech guy, I already have plenty to write about, but if you add my interests for economics, politics, philosophy and sciences generally, there are many more interesting topics for us to discuss.
+        description: Making the future happen
+        weight: 2
+        paginatePath: page
