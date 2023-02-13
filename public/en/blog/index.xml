@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Blog on Haris</title>
+    <link>https://haris.paris/en/blog/</link>
+    <description>Recent content in Blog on Haris</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de</language>
+    <lastBuildDate>Thu, 18 Nov 2021 01:23:23 +0100</lastBuildDate><atom:link href="https://haris.paris/en/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Welcome</title>
+      <link>https://haris.paris/en/blog/2021/11/welcome/</link>
+      <pubDate>Thu, 18 Nov 2021 01:23:23 +0100</pubDate>
+      
+      <guid>https://haris.paris/en/blog/2021/11/welcome/</guid>
+      <description>Hello and welcome on my website! As I have many projects and do lots of different stuff – IT, tech, amateur radio, linguistics and politics – I want to bundle my experiences here and share them with you. While my website will focus on my career, the blog will be rather diverse and have the &amp;ldquo;big picture&amp;rdquo; in mind, being less about singular topics but more about fascinating and entertaining topics.</description>
+    </item>
+    
+  </channel>
+</rss>
