@@ -5,7 +5,7 @@ sectionPagesMenu: main
 
 permalinks:
     blog: /blog/:year/:month/:slug/
-publishDir: /var/www/virtual/haris/html
+# publishDir: /var/www/virtual/haris/html
 enableEmoji: true
 outputs:
     home:
