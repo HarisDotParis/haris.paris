@@ -82,19 +82,6 @@ languages:
     de:
         languageName: Deutsch
         params:
-            profileMode:
-                enabled: false
-                title: Haris – geschrieben wie Paris
-                subtitle: Making the future happen
-                imageUrl: /haris.webp
-                imageWidth: 120
-                imageHeight: 120
-                imageTitle: Haris
-                buttons:
-                  - name: Posts
-                    url: blog
-                  - name: Tags
-                    url: tags
             linkedin: https://de.linkedin.com/in/haristrgo/de
             homeInfoParams:
                 Title: Haris – geschrieben wie Paris
