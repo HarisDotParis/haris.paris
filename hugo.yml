@@ -1,7 +1,11 @@
-title: Haris
 baseURL: https://haris.paris
+title: Haris
 theme: "PaperMod"
 sectionPagesMenu: main
+
+minify:
+    disableXML: true
+    minifyOutput: true
 
 permalinks:
     blog: /blog/:year/:month/:slug/
@@ -14,11 +18,32 @@ outputs:
         - JSON # is necessary for search
 
 params:
-    ShowReadingTime: true
     env: production
+    keywords: [Politik, Politics, Amateurfunk, Amateur Radio, Ham Radio, IT, Tech, Technologie, Technology]
+    author: Haris
+    images: ["/img/pub/"]
+    DateFormat: "2022-12-31"
+    defaultTheme: dark
+    disableThemeToggle: false
     displayFullLangName: true
     hideFooter: true
+
+    ShowReadingTime: true
+    ShowShareButtons: true
+    ShowPostNavLinks: true
+    ShowBreadCrumbs: true
+    ShowCodeCopyButtons: false
+    ShowWordCount: false
+    ShowRssButtonInSectionTermList: true
     UseHugoToc: true   # check for correctness
+    disableSpecial1stPost: false
+    disableScrollToTop: false
+    comments: true
+    hidemeta: false
+    hideSummary: false
+    showtoc: false
+    tocopen: false
+
     socialIcons:
         - name: matrix
           title: "Matrix (@ha:ris.paris)"
@@ -46,6 +71,8 @@ params:
           url: "https://keys.openpgp.org/search?q=haris%40mailbox.org"
 # list of all socialIcons on offer: layouts/partials/svg.html
 
+# consider configuring search in more detail
+
 languageCode: de
 defaultContentLanguage: de
 PluralizeListTitles: false
@@ -55,6 +82,19 @@ languages:
     de:
         languageName: Deutsch
         params:
+            profileMode:
+                enabled: false
+                title: Haris – geschrieben wie Paris
+                subtitle: Making the future happen
+                imageUrl: /haris.webp
+                imageWidth: 120
+                imageHeight: 120
+                imageTitle: Haris
+                buttons:
+                  - name: Posts
+                    url: blog
+                  - name: Tags
+                    url: tags
             linkedin: https://de.linkedin.com/in/haristrgo/de
             homeInfoParams:
                 Title: Haris – geschrieben wie Paris
