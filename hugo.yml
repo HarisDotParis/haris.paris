@@ -22,7 +22,7 @@ params:
     keywords: [Politik, Politics, Amateurfunk, Amateur Radio, Ham Radio, IT, Tech, Technologie, Technology]
     author: Haris
     images: ["/img/pub/"]
-    DateFormat: "2006-01-02 Mon"
+    DateFormat: "2006-01-02"
     defaultTheme: dark
     disableThemeToggle: false
     displayFullLangName: true
