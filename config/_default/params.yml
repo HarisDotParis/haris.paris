@@ -12,7 +12,7 @@ ShowPostNavLinks: true
 ShowBreadCrumbs: true
 ShowCodeCopyButtons: false
 ShowWordCount: false
-ShowRssButtonInSectionTermList: true
+ShowRssButtonInSectionTermList: false
 UseHugoToc: true   # check for correctness
 disableSpecial1stPost: false
 disableScrollToTop: false
@@ -21,6 +21,10 @@ hidemeta: false
 hideSummary: false
 showtoc: false
 tocopen: false
+
+blog:
+  ShowRssButtonInSectionTermList: true
+
 
 socialIcons:
   - name: matrix
