@@ -22,10 +22,6 @@ hideSummary: false
 showtoc: false
 tocopen: false
 
-blog:
-  ShowRssButtonInSectionTermList: true
-
-
 socialIcons:
   - name: matrix
     title: "Matrix (@ha:ris.paris)"
