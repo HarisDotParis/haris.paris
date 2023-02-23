@@ -1,0 +1,50 @@
+env: production
+images: ["/img/pub/"]
+DateFormat: "2006-01-02"
+defaultTheme: dark
+disableThemeToggle: false
+displayFullLangName: true
+hideFooter: true
+
+ShowReadingTime: true
+ShowShareButtons: true
+ShowPostNavLinks: true
+ShowBreadCrumbs: true
+ShowCodeCopyButtons: false
+ShowWordCount: false
+ShowRssButtonInSectionTermList: true
+UseHugoToc: true   # check for correctness
+disableSpecial1stPost: false
+disableScrollToTop: false
+comments: true
+hidemeta: false
+hideSummary: false
+showtoc: false
+tocopen: false
+
+socialIcons:
+  - name: matrix
+    title: "Matrix (@ha:ris.paris)"
+    url: "https://matrix.to/#/@ha:ris.paris"
+  - name: mastodon
+    title: "Mastodon (@ha@ris.paris)"
+    url: "https://masto.ris.paris/@ha"
+  - name: linkedin
+    title: "LinkedIn (@haristrgo)"
+    url: "https://linkedin.com/in/haristrgo"
+  - name: xing
+    title: "XING (@Haris_Trgo)"
+    url: "https://www.xing.com/profile/Haris_Trgo"
+  - name: github
+    title: "GitHub (@HarisDotParis)"
+    url: "https://github.com/HarisDotParis"
+  - name: twitter
+    title: "Twitter (@HarisDotParis)"
+    url: "https://twitter.com/HarisDotParis"
+  - name: cv
+    title: "CV"
+    url: "about/cv"
+  - name: pgpkey
+    title: PGP key
+    url: "https://keys.openpgp.org/search?q=haris%40mailbox.org"
+# list of all socialIcons on offer: layouts/partials/svg.html

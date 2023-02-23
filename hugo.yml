@@ -4,99 +4,31 @@ theme: "PaperMod"
 sectionPagesMenu: main
 
 minify:
-    disableXML: true
-    minifyOutput: true
+  disableXML: true
+  minifyOutput: true
 
 permalinks:
     blog: /blog/:year/:month/:slug/
 # publishDir: /var/www/virtual/haris/html
 enableEmoji: true
 outputs:
-    home:
-        - HTML
-        - RSS
-        - JSON # is necessary for search
-
-params:
-    env: production
-    keywords: [Politik, Politics, Amateurfunk, Amateur Radio, Ham Radio, IT, Tech, Technologie, Technology]
-    author: Haris
-    images: ["/img/pub/"]
-    DateFormat: "2006-01-02"
-    defaultTheme: dark
-    disableThemeToggle: false
-    displayFullLangName: true
-    hideFooter: true
-
-    ShowReadingTime: true
-    ShowShareButtons: true
-    ShowPostNavLinks: true
-    ShowBreadCrumbs: true
-    ShowCodeCopyButtons: false
-    ShowWordCount: false
-    ShowRssButtonInSectionTermList: true
-    UseHugoToc: true   # check for correctness
-    disableSpecial1stPost: false
-    disableScrollToTop: false
-    comments: true
-    hidemeta: false
-    hideSummary: false
-    showtoc: false
-    tocopen: false
-
-    socialIcons:
-        - name: matrix
-          title: "Matrix (@ha:ris.paris)"
-          url: "https://matrix.to/#/@ha:ris.paris"
-        - name: mastodon
-          title: "Mastodon (@ha@ris.paris)"
-          url: "https://masto.ris.paris/@ha"
-        - name: linkedin
-          title: "LinkedIn (@haristrgo)"
-          url: "https://linkedin.com/in/haristrgo"
-        - name: xing
-          title: "XING (@Haris_Trgo)"
-          url: "https://www.xing.com/profile/Haris_Trgo"
-        - name: github
-          title: "GitHub (@HarisDotParis)"
-          url: "https://github.com/HarisDotParis"
-        - name: twitter
-          title: "Twitter (@HarisDotParis)"
-          url: "https://twitter.com/HarisDotParis"
-        - name: cv
-          title: "CV"
-          url: "about/cv"
-        - name: pgpkey
-          title: PGP key
-          url: "https://keys.openpgp.org/search?q=haris%40mailbox.org"
-# list of all socialIcons on offer: layouts/partials/svg.html
-
-# consider configuring search in more detail
+  home:
+    - HTML
+    - JSON # is necessary for search
+  blog:
+    - HTML
+    - RSS
+    - JSON # is necessary for search
 
 languageCode: de
 defaultContentLanguage: de
 PluralizeListTitles: false
 removePathAccents: true
 timeZone: Europe/Brussels
-languages:
-    de:
-        languageName: Deutsch
-        params:
-            linkedin: https://de.linkedin.com/in/haristrgo/de
-            homeInfoParams:
-                Title: Haris – geschrieben wie Paris
-                Content: Willkommen auf meinem Blog! Als ITler hätte ich schon viel zu schreiben, aber durch mein wirtschaftliches, politisches, philosophisches und generell wissenschaftliches Interesse haben wir umso mehr spannende Themen zu entdecken. Viel Spaß beim Lesen und Teilen!
-        description: Making the future happen
-        weight: 1
-        paginatePath: seite
 
-    en:
-        languageName: English
-        params: 
-            linkedin: https://linkedin.com/in/haristrgo
-            homeInfoParams:
-                Title: Haris – write it like Paris
-                Content: Welcome to my blog! As an tech guy, I already have plenty to write about, but if you add my interests for economics, politics, philosophy and sciences generally, there are many more interesting topics for us to discuss.
-        description: Making the future happen
-        weight: 2
-        paginatePath: page
+### Params are in the config/_default folder
+### Generic params are in params.yml and language-specific params are in languages.yml
+
+### Languages are set up in config/_default/languages.yml
+
+# consider configuring search in more detail

@@ -1,0 +1,20 @@
+de:
+  languageName: Deutsch
+  params:
+    linkedin: https://de.linkedin.com/in/haristrgo/de
+    homeInfoParams:
+      Title: Haris – geschrieben wie Paris
+      Content: Willkommen auf meinem Blog! Als ITler hätte ich schon viel zu schreiben, aber durch mein wirtschaftliches, politisches, philosophisches und generell wissenschaftliches Interesse haben wir umso mehr spannende Themen zu entdecken. Viel Spaß beim Lesen und Teilen!
+  description: Making the future happen
+  weight: 1
+  paginatePath: seite
+
+en:
+  languageName: English
+  params:
+    homeInfoParams:
+      Title: Haris – write it like Paris
+      Content: Welcome to my blog! As an tech guy, I already have plenty to write about, but if you add my interests for economics, politics, philosophy and sciences generally, there are many more interesting topics for us to discuss.
+  description: Making the future happen
+  weight: 2
+  paginatePath: page
